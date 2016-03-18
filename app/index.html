@@ -44,9 +44,6 @@
   <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-  <!-- Navbar -->
-
   <nav class="navbar calcite-white navbar-fixed-top navbar-text-light">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -65,10 +62,8 @@
         </div>
       </div>
 
-      <!-- Navbar collapse -->
       <div id="mainNav" class="collapse navbar-collapse" aria-expanded="false">
         <ul class="nav navbar-nav navbar-right">
-          <!-- Primary Nav - Map and scene -->
           <li><a id="mapNav" class="hidden-xs hidden-sm" href="#2dTab" aria-controls="2Dtab" aria-expanded="true" role="tab" data-toggle="tab" data-tooltip="tip" title="2D View" data-placement="top">Map</a></li>
           <li class="active"><a id="sceneNav" class="hidden-xs hidden-sm" href="#3dTab" aria-controls="3Dtab" role="tab" data-tooltip="tip" data-toggle="tab" title="3D View" data-placement="top">Scene</a></li>
           <li>
@@ -76,7 +71,6 @@
               <div id="searchNavDiv"></div>
             </form>
           </li>
-          <!-- Secondary Nav - All other options -->
           <!-- <li class="dropdown" role="presentation">
             <a class="dropdown-toggle hidden-xs" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></a>
             <ul class="dropdown-menu">
@@ -88,16 +82,9 @@
             </ul>
           </li>-->
         </ul>
-        <!--/.nav -->
       </div>
-      <!--/.nav-collapse -->
     </div>
-    <!--/.container-fluid -->
   </nav>
-  <!--/.navbar -->
-
-  <!-- Map Container  -->
-
   <div class="map-container">
     <div id="tabContainer" class="tab-content">
       <div id="2dTab" class="tab-pane fade" role="tabpanel">
@@ -108,18 +95,9 @@
       </div>
     </div>
   </div>
-  <!-- /.container -->
-
-  <!-- Recorder -->
   <div data-dojo-attach-point="CameraRecorder" id="recorder"></div>
-
-  <!-- Panel -->
-
   <div class="panel-container">
     <div id="panelAccordion" class="panel-group" role="tablist" aria-multiselectable="true">
-
-      <!-- Info Panel -->
-
       <div id="panelInfo" class="panel panel-default collapse">
         <div id="headingInfo" class="panel-heading" role="tab">
           <div class="panel-title">
@@ -133,9 +111,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Search Panel -->
-
       <div id="panelSearch" class="panel panel-default collapse hidden-sm hidden-md hidden-lg">
         <div id="headingSearch" class="panel-heading" role="tab">
           <div class="panel-title">
@@ -149,9 +124,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Basemaps Panel -->
-
       <div id="panelBasemaps" class="panel panel-default collapse">
         <div id="headingBasemaps" class="panel-heading" role="tab">
           <div class="panel-title">
@@ -177,9 +149,7 @@
         </div>
       </div>
     </div>
-    <!-- /.panel-group -->
   </div>
-  <!-- /.panel-container -->
 
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->

@@ -55,7 +55,7 @@ define([
         return;
       }
       domClass.toggle(this.playBtn, 'btn-info btn-success');
-      this._play(false);
+      this.play(false);
     },
 
     stop: function() {
@@ -71,7 +71,7 @@ define([
         return;
       }
       domClass.toggle(this.reverseBtn, 'btn-info btn-success');
-      this._play(true);
+      this.play(true);
     },
 
     cameraWatch: function() {
